@@ -1,0 +1,12 @@
+password1 = input()
+password2 = input()
+password3 = input()
+
+if password1 != password2 and password1 == password3:
+  print("ENTRY 2 MISMATCH")
+elif password1 != password3 and password1 == password2:
+  print("ENTRY 3 MISMATCH")
+elif password1 != password3 and password1 != password2:
+  print("BOTH MISMATCH")
+else:
+  print("OK")
