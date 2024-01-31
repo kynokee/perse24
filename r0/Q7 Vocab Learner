@@ -1,0 +1,10 @@
+word_number = int(input())
+days = word_number // 5
+total = 0
+
+for i in range(days + 1):
+  total += 5 * i
+
+remaining_words = word_number - 5 * days
+total += (5 * days) + remaining_words
+print(total)
