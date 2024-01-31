@@ -1,0 +1,5 @@
+word = input()
+end = word[0:2]
+start = word[2:6]
+
+print(start + end)
