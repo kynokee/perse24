@@ -1,0 +1,9 @@
+drink = input()
+
+if drink == "t" or drink == "c":
+  refill = int(input())
+else:
+  refill = 0
+
+total = 1 + refill
+print(total)
