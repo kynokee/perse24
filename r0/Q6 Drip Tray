@@ -1,0 +1,9 @@
+total_units = 0
+while total_units < 12:
+  random_units = int(input())
+  total_units += random_units
+
+if total_units == 12:
+  print("0")
+else:
+  print(total_units - 12)
